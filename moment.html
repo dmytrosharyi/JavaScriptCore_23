@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://momentjs.com/downloads/moment-with-locales.js">
+    </script>
+    <script src="https://momentjs.com/downloads/moment.js">
+    </script>
+    <title>Document</title>
+</head>
+<style>
+    #newDay {
+        border: 1px solid black;
+        font-size: 20px;
+        padding: 5px;
+        text-align: center;
+        width: 150px;
+        height: 30px;
+        position: absolute;
+    }
+
+</style>
+
+<body>
+    <div id="form">
+        <h3>Enter your date of birth</h3>
+        <input type="text" id="date" placeholder="01-01-2019"><br><br>
+        <input type="button" id="action" onclick="viewNewDay()" value="Day in 20 years will be">
+    </div>
+    <br>
+    <div id="newDay"></div>
+    <script src="moment.js"></script>
+</body>
+
+</html>
